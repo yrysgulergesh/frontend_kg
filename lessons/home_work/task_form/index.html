@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(215, 219, 223);
+      }
+      .formContainer {
+        width: 400px;
+        height: 530px;
+        background-color: white;
+        margin: auto;
+      }
+      .formBox {
+        width: 350px;
+        margin: auto;
+      }
+      .userName,
+      .userLastName {
+        width: 160px;
+        height: 50px;
+      }
+      .userEmail,
+      .userPassword {
+        width: 330px;
+        height: 50px;
+      }
+
+      select {
+        width: 90px;
+        height: 30px;
+      }
+
+      button {
+        width: 150px;
+        height: 30px;
+        background-color: rgb(110, 231, 110);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="formContainer">
+      <div class="formBox">
+        <form action="">
+          <h2>Регистрация</h2>
+          <p>Быстро и легко!</p>
+          <div>
+            <input class="userName" type="text" placeholder="Имя" />
+            <input class="userLastName" type="text" placeholder="Фамилия" />
+          </div>
+          <br />
+          <div>
+            <input
+              class="userEmail"
+              type="text"
+              placeholder="Номер телефона или эл. адрес"
+            />
+          </div>
+          <br />
+          <div>
+            <input class="userPassword" type="password" placeholder="Пароль" />
+          </div>
+          <p>Дата Рождения</p>
+          <div>
+            <select>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+              <option value="">13</option>
+              <option value="">14</option>
+              <option value="">15</option>
+              <option value="">16</option>
+              <option value="">17</option>
+              <option value="">18</option>
+              <option value="">19</option>
+              <option value="">20</option>
+              <option value="">21</option>
+              <option value="">22</option>
+              <option value="">23</option>
+              <option value="">24</option>
+              <option value="">25</option>
+              <option value="">26</option>
+              <option value="">27</option>
+              <option value="">28</option>
+              <option value="">29</option>
+              <option value="">30</option>
+              <option value="">31</option>
+            </select>
+            <select>
+              <option value="">Январь</option>
+              <option value="">Февраль</option>
+              <option value="">Март</option>
+              <option value="">Апрель</option>
+              <option value="">Май</option>
+              <option value="">Июнь</option>
+              <option value="">Июль</option>
+              <option value="">Август</option>
+              <option value="">Сентябрь</option>
+              <option value="">Октябрь</option>
+              <option value="">Ноябрь</option>
+              <option value="">Декабрь</option>
+            </select>
+            <select>
+              <option value="">1999</option>
+              <option value="">2000</option>
+              <option value="">2003</option>
+              <option value="">2010</option>
+              <option value="">2015</option>
+              <option value="">2020</option>
+              <option value="">2023</option>
+            </select>
+            <p>Пол</p>
+            <div>
+              <label for="man">Мужчина</label>
+              <input type="radio" id="man" name="gender" />
+              <label for="woman">Женщина</label>
+              <input type="radio" id="woman" name="gender" />
+            </div>
+            <br />
+            <button>Регистрация</button>
+            <p>У вас есть аккаунт, <a href="./login.html">Войти</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
